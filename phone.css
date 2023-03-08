@@ -1,0 +1,236 @@
+
+
+.left1 {
+    width: 50%;
+    gap: 20px;
+}
+
+.ourService {
+    width: 90%;
+}
+
+.card_container {
+    margin-top: 69px;
+}
+
+.card {
+    width: 20vw;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.cutomer_feedB_container p {
+    width: 50%;
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .ourService {
+        width: 95%;
+    }
+
+    .big-container {
+        max-width: 90vw;
+    }
+}
+
+
+
+@media (max-width:625px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .right1 {
+        width: 60%;
+    }
+
+    .left1 {
+        width: 65%;
+    }
+
+    .cutomer_feedB_container p {
+        width: 70%;
+    }
+
+    .card_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        width: 28vw;
+        padding: 15px;
+    }
+
+    .container4 {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .container5 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .right5 {
+        width: 75%;
+    }
+
+    .left5 {
+        width: 65%;
+    }
+
+    .cutomer_feedB_container>.rectangle {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer_cont {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        justify-items: center;
+        align-items: center;
+        padding: 60px 30px;
+    }
+
+}
+
+
+@media (max-width:400px) {
+    .navBar {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 8px;
+        margin-bottom: 30px;
+        position: fixed !important;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+    }
+
+
+    .rightnavBar ul {
+        gap: 10px;
+    }
+
+    .big-container {
+        max-width: 96vw;
+        margin-top: 80px;
+    }
+
+    .material-icons+.rightnavBar {
+        display: none;
+    }
+
+    .leftnavBar+.material-icons {
+        display: block;
+    }
+
+    .right1 {
+        width: 80%;
+    }
+
+    .left1 {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .ourService {
+        width: 100%;
+    }
+
+    .card_container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 80vw;
+        padding: 8px;
+    }
+
+    .card img {
+        width: 24vw;
+    }
+    .left4 img {
+        width: 94%;
+    }
+    .left5 {
+        width: 80%;
+    }
+    .right5 {
+        width: 88%;
+    }
+    .strip {
+        width: 60px;
+        height: 2px;
+    }
+    .cutomer_feedB_container p {
+        width: 82%;
+    }
+    .arrow {
+        gap: 15px;
+    }
+    .card_ img {
+        max-width: 280px;
+    }
+    .card_container3 .card_ {
+        max-width: 280px;
+        padding: 5px;
+        gap: 20px;
+    }
+    .btn {
+        width: 100px;
+        padding: 8px;
+    }
+}
